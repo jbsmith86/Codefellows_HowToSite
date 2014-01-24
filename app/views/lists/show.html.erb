@@ -1,0 +1,4 @@
+<h1><%= @list.name %></h1>
+<% @list.steps.each do |step| %>
+  - <%= step.text %></br>
+<% end %>
