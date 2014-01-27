@@ -2,3 +2,6 @@
 <% @list.steps.each do |step| %>
   - <%= step.text %></br>
 <% end %>
+
+<%= link_to 'Edit', edit_list_path(@list) %> |
+<%= link_to 'Back', root_path %>
